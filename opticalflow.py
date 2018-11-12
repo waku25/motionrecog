@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('slow.flv')
+cap = cv2.VideoCapture('vtest.avi')
 
 # ShiTomasiコーナー検出器のためのパラメータ
 feature_params = dict(maxCorners=100,
